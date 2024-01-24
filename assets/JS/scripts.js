@@ -9,6 +9,7 @@ function generatePassword(){
 var passwordSize=prompt("Enter password length between 8 and 128")
 console.log(passwordSize)
 
+// added an alert if the choosen number isnt between 8 and 128.
 if(passwordSize>=8 %% passwordSize <=128){
 
 }
