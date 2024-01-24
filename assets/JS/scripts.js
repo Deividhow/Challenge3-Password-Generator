@@ -4,6 +4,12 @@
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
+//added meaning to the variables
+var lowercase="abcdefghijklmnopqrstuvwyz";
+var uppercase=lowercase.toUpperCase();
+var numbers="0123456789";
+var special="~!@#$%^&*";
+
 // adds a promt on screen to choose the number of characters to be used in the password thats going to be generated.
 function generatePassword(){
 var passwordSize=prompt("Enter password length between 8 and 128")
