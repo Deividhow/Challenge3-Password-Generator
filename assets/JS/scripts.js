@@ -11,9 +11,12 @@ console.log(passwordSize)
 
 // added an alert if the choosen number isnt between 8 and 128.
 if(passwordSize>=8 && passwordSize <=128){
-  //added a confirm to check if the person using the password generator wants lowercase's to be included in the password
+  //added a confirm to check if the person using the password generator wants lowercase, uppercase,numeric and special characters to be included in the password
 var ConfirmLowerCase=confirm("Do you want lower case included in the password?")
 console.log(ConfirmLowerCase)
+ConfirmUpperrCase=confirm("Do you want uppper case included in the password?")
+Confirmnumbers=confirm("Do you want numbers included in the password?")
+Confirmspecial=confirm("Do you want special characters included in the password?")
 }
 else{
   alert("Invalid Entry,Password length must be between 8 and 128")
